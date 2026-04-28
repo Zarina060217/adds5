@@ -32,7 +32,7 @@ public class Sorter {
                 arr[i]=arr[j];//swap, so small num placed at beginning
                 arr[j]=sw;    // and num here is replaced(swapped)
             }
-        }//finally swap pivot into middle of sorted list
+        } //finally swap pivot into middle of sorted list
         int temp=arr[i+1];
         arr[i+1]=arr[high];
         arr[high]=temp;
